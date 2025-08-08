@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
 
         <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-28 lg:py-32">
-          <div className="max-w-3xl">
+          <div className="mx-auto max-w-3xl text-center">
             <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/40 px-3 py-1 text-sm text-muted-foreground">
               <span className="size-2 rounded-full bg-primary" /> Available for new projects
             </p>
@@ -45,7 +45,7 @@ const Hero = () => {
               frontends to resilient cloud backends.
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-4">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <Button asChild>
                 <a href="#projects" className="hover-scale">
                   <Rocket className="mr-2 size-4" /> View Projects
@@ -58,7 +58,7 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="mt-10 grid max-w-lg grid-cols-2 gap-3 text-sm text-muted-foreground sm:max-w-none sm:grid-cols-4">
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 gap-3 text-sm text-muted-foreground sm:max-w-none sm:grid-cols-4">
               {[
                 "React & TypeScript",
                 "Node.js & APIs",

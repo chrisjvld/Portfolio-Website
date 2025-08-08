@@ -2,7 +2,7 @@ const SiteFooter = () => {
   return (
     <footer className="mt-16 border-t border-border">
       <div className="mx-auto max-w-6xl px-6 py-10 text-sm text-muted-foreground">
-        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4">
           <p>© {new Date().getFullYear()} Your Name — Full‑Stack Developer</p>
           <div className="flex items-center gap-4">
             <a href="#projects" className="story-link">Projects</a>

@@ -13,9 +13,9 @@ const stack = [
 
 const TechStack = () => {
   return (
-    <section id="stack" className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+    <section id="stack" className="mx-auto max-w-6xl px-6 py-16 text-center sm:py-20">
       <h2 className="font-heading text-3xl sm:text-4xl">Tech Stack</h2>
-      <div className="mt-6 flex flex-wrap gap-3">
+      <div className="mt-6 flex flex-wrap justify-center gap-3">
         {stack.map(({ name, Icon }) => (
           <Badge key={name} variant="secondary" className="gap-2">
             <Icon className="size-4 text-primary" /> {name}

@@ -26,8 +26,8 @@ const projects: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
-      <div className="mb-8 flex items-end justify-between">
+    <section id="projects" className="mx-auto max-w-6xl px-6 py-16 text-center sm:py-20">
+      <div className="mb-8 flex flex-col items-center justify-center">
         <h2 className="font-heading text-3xl sm:text-4xl">Featured Projects</h2>
         <a href="#contact" className="story-link text-sm text-muted-foreground">
           Work with me

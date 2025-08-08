@@ -35,7 +35,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       className="transition-transform duration-200 will-change-transform"
     >
       <CardHeader>
-        <CardTitle className="flex items-start justify-between gap-4">
+        <CardTitle className="flex flex-col items-center gap-2 text-center">
           <span>{project.title}</span>
           {project.href ? (
             <a
@@ -51,8 +51,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-muted-foreground">{project.description}</p>
-        <div className="mt-4 flex flex-wrap gap-2">
+        <p className="text-center text-muted-foreground">{project.description}</p>
+        <div className="mt-4 flex flex-wrap justify-center gap-2">
           {project.tags.map((t) => (
             <Badge key={t} variant="secondary">
               {t}

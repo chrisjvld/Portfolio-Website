@@ -21,13 +21,13 @@ const items = [
 
 const Services = () => {
   return (
-    <section id="services" className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+    <section id="services" className="mx-auto max-w-6xl px-6 py-16 text-center sm:py-20">
       <h2 className="font-heading text-3xl sm:text-4xl">Services</h2>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {items.map(({ title, desc, Icon }) => (
           <Card key={title} className="transition-transform hover:translate-y-[-2px]">
             <CardContent className="p-6">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center gap-3">
                 <div className="rounded-md border border-border bg-secondary/40 p-2">
                   <Icon className="size-5 text-primary" />
                 </div>
