@@ -1,14 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
+import Hero from "@/components/sections/Hero";
+import Projects from "@/components/sections/Projects";
+import Services from "@/components/sections/Services";
+import TechStack from "@/components/sections/TechStack";
+import Contact from "@/components/sections/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div>
+      <SiteHeader />
+      <main>
+        <Hero />
+        <Projects />
+        <Services />
+        <TechStack />
+        <Contact />
+      </main>
+      <SiteFooter />
     </div>
   );
 };
 
 export default Index;
+
